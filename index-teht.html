@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Italiano Pizza</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header & Menu Styles */
+        header {
+            background-color: #2c2f33;
+            padding: 20px 40px;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+
+        .menu-box {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+        }
+
+        .shop-name {
+            margin: 0;
+            font-size: 24px;
+            color: #d4a03c;
+            font-weight: bold;
+            
+        }
+
+        nav ul.menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul.menu li {
+            display: inline;
+        }
+
+        nav ul.menu li a {
+            color: #ddd;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 5px 0;
+            transition: color 0.3s ease, border-bottom 0.3s ease;
+        }
+
+        nav ul.menu li a.active,
+        nav ul.menu li a:hover {
+            color: #d4a03c;
+            border-bottom: 2px solid #d4a03c;
+        }
+        .search-box {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .search-box input[type='text'] {
+            padding: 5px;
+            font-size: 12px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+        }
+
+        .search.button {
+            padding: 5px 10px;
+            font-size: 16px;
+            background-color: #f4f4f4;
+            border: none;
+            color: #ddd;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-box button:hover {
+            background-color: #d7d4d0;
+        }
+    
+
+        /* Main Content Styles */
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            
+            }
+
+
+        .content-text {
+            margin-bottom: 40px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .footer-content {
+          background-color: #fff;
+          padding: 0 20px;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+          gap: 30px;
+          flex-direction: row-reverse;
+          
+          
+
+        }
+        .footer-content img {
+          width: 300px;
+          border-radius: 50%;
+          
+
+        }
+        .image-wrapper {
+            position: absolute;
+            top: -170px;
+            right:0;
+        }
+
+        .floating-img {
+            width: 100px;
+            height: auto;
+            pointer-events: none;
+        }
+
+        .footer-content .text-content {
+            max-width: 80%
+
+        }
+
+        .footer-content h2,
+        .footer-content h3 {
+            margin: 0 0 10px 0;
+            text-align: left;
+        }
+        .footer-content {
+            text-align: justify
+        }
+
+        footer {
+          margin-top: auto;
+          padding: 20px;
+          background-color: #eee;
+        }
+        .footer-gap {
+            background-color: #4b617b;
+            height: 50px;
+
+        }
+        .footer-copyright {
+            background-color: #0e13109c;
+            color: #e9eff7;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="menu-box">
+        <h1 class="shop-name">Sicily Pizza</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#Etusivu" class="active">Etusivu</a></li>
+                <li><a href="#Ruokalistat">Ruokalistat</a></li>
+                <li><a href="#Yhteystiedot">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button type="button">Search</button>
+
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="center-text">
+      <h2> Soon you will hear from us!</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequuntur ducimus explicabo repellendus! Incidunt, dolor. Sequi, saepe nemo consequuntur ab quisquam, eum labore modi voluptas temporibus, eaque voluptatem deleniti a.
+      Qui aut delectus provident quos sint fugiat tenetur cum excepturi alias ut, asperiores sit consequatur quod officiis quo laudantium sunt odio animi, illum dignissimos impedit nemo? Aliquid consequatur ducimus fuga?
+      Unde illo facere reiciendis obcaecati atque fugiat, fugit eum odit hic? Dolorum debitis ex similique magni iusto cum ea. Harum nobis iste totam ducimus quisquam excepturi quod labore aut aliquam.</p>
+
+
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+        <div class="text-content">
+      <h2>Sicily Pizza</h2>
+      <h3>Lisää Meistä</h3>
+      <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores odio at labore? At, quos sapiente corrupti ducimus harum sit nobis voluptatum illum porro fuga. Sequi magni sunt doloribus suscipit debitis.
+      Nihil odit minus quam aperiam cupiditate quos facilis ea laboriosam voluptas, quidem quia inventore blanditiis tempora ab quis tempore, sunt deleniti esse obcaecati suscipit molestiae nostrum. Eos fuga aliquid tempora!</p>
+        </div>
+      <img src="img/pizz.jpg" alt="pizza-sample">
+
+      <div class="image-wrapper">
+      <img src="img/chili.jpg" alt="chili" class="floating-img">
+      </div>    
+    </div>
+    <div class="footer-gap"></div>
+    <div class="footer-copyright">
+        <p> Copyright, Husu</p>
+    </div>
+  </footer>
+
+
+  </body>
+  </html>
